@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="180" viewBox="0 0 1280 180" role="img" aria-labelledby="title desc">
+  <title id="title">ICLR 2027 public review snapshot</title>
+  <desc id="desc">42,790 public submissions, including withdrawn and desk-rejected papers. 40,642 papers with at least one parseable score. 125,610 review scores on the original 1–4 scale.</desc>
+  <rect x="1" y="1" width="1278" height="178" rx="10" fill="#f5f4ef" stroke="#dce3df"/>
+  <path d="M427 28V152M853 28V152" stroke="#d0dbd4"/>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g fill="#172f32" font-size="46" font-weight="650" letter-spacing="-1">
+      <text x="213" y="72">42,790</text>
+      <text x="640" y="72">40,642</text>
+      <text x="1067" y="72">125,610</text>
+    </g>
+    <g fill="#19766c" font-size="17" font-weight="600">
+      <text x="213" y="108">PUBLIC SUBMISSIONS</text>
+      <text x="640" y="108">SCORED PAPERS</text>
+      <text x="1067" y="108">REVIEW SCORES</text>
+    </g>
+    <g fill="#667675" font-size="14">
+      <text x="213" y="140">Withdrawn / desk-rejected included</text>
+      <text x="640" y="140">At least one parseable score</text>
+      <text x="1067" y="140">Original 1–4 score scale</text>
+    </g>
+  </g>
+</svg>
