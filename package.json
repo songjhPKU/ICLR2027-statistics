@@ -1,0 +1,13 @@
+{
+  "name": "iclr2027-statistics",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build_site.py && python3 scripts/build_en.py",
+    "test": "node tests/stats.test.cjs && python3 tests/history_test.py",
+    "test:browser": "node tests/dashboard.test.cjs --both"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0"
+  }
+}

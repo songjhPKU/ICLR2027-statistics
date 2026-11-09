@@ -6,6 +6,7 @@ Chinese index.html is the source of truth. New untranslated UI text fails the bu
 
 from pathlib import Path
 import re
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -148,6 +149,8 @@ TRANSLATIONS = {
     '；': '; ',
 }
 
+
+TRANSLATIONS.update(json.loads((ROOT / 'scripts/ui_translations.json').read_text(encoding='utf-8')))
 
 def build():
     source = (ROOT / 'index.html').read_text(encoding='utf-8')
